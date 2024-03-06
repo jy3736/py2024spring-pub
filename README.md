@@ -6,7 +6,7 @@ Use the command below to update your local machine with the latest changes from 
 git pull
 ```
 
-### You must not modify the files in this repository. Otherwise, you will not be able to update your local machine with the latest changes from the repository.
+## You must not modify the files in this repository. Otherwise, you will not be able to update your local machine with the latest changes from the repository.
 
 ---
 
@@ -18,4 +18,4 @@ git pull
 git pull
 ```
 
-### 您不得修改此程式集中的任何文件。否則將無法將程式集的最新變更更新到本地機器。
+## 不得修改此程式集中的任何文件。否則將無法將程式集的最新變更更新到本地機器。
