@@ -1,38 +1,42 @@
-## Single Even Integer
+## Distance to Closest Point
 
-This program determines if exactly one out of two given integers is even. It's designed for use cases where identifying a single even number among two is important.
+This program calculates the distance from a given point A to the nearest point among two other points, B and C, on a line. It is intended for situations where finding the shortest distance to a point is necessary.
 
 ### How It Works
 
-The program takes two integer inputs and checks if only one of them is even. It outputs "YES" if only one of the integers is even, and "NO" if both or neither are even.
+The program takes the coordinates of three points on a line as input. It calculates the distances from point A to points B and C, then identifies the shortest of these two distances. This closest distance is then output.
 
 ### Input
 
-Users are expected to input two integers, one after the other.
+Users must input the coordinates of points A, B, and C as integers, one after the other.
 
 ### Output
 
-The output will be "YES" if exactly one of the provided integers is even, and "NO" otherwise.
+The program outputs the distance from point A to the closest point (either B or C).
 
 ### Example
 
-```
+```shell
 $ python main.py
-4
+1
 5
-YES
+3
+2
 $ python main.py
 2
-6
-NO
+8
+4
+2
 $ python main.py
-7
-9
-NO
+6
+1
+10
+5
 $ python main.py
 3
-10
-YES
+2
+4
+1
 ```
 
 ---

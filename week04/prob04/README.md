@@ -1,42 +1,42 @@
-## Numbers in Ascending Order
+## Sort Three Numbers Using Conditional Statements
 
-This program checks if three given integers are in ascending order. It's designed for scenarios where verifying the sequential order of numbers is required.
+This program sorts three given integers in ascending order using only conditional statements. It demonstrates an alternative approach to sorting without relying on Python's list sorting functions or methods.
 
 ### How It Works
 
-Upon receiving three integer inputs, the program determines if they are provided in ascending order (i.e., each number is smaller than the next). It outputs "YES" if the integers are in ascending order, and "NO" if they are not.
+The program receives three integer inputs and sorts them in ascending order through a series of conditional statements. It determines the correct order by comparing the integers and then prints them from smallest to largest.
 
 ### Input
 
-Users should input three different integers, one after the other.
+Users are prompted to input three integers, one after the other.
 
 ### Output
 
-The program outputs "YES" if the provided integers are in ascending order, and "NO" otherwise.
+The program prints the three integers in ascending order, separated by spaces.
 
 ### Example
 
 ```
 $ python main.py
+3
 1
 2
-3
-YES
+1 2 3
 $ python main.py
-4
-3
 5
-NO
+3
+4
+3 4 5
 $ python main.py
 10
 20
-30
-YES
+15
+10 15 20
 $ python main.py
-9
 8
 7
-NO
+9
+7 8 9
 ```
 
 ---

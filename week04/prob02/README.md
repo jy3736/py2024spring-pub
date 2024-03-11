@@ -1,34 +1,41 @@
-## Divisible by Four
+## Chess Board - Black Square
 
-This program checks if a given integer is divisible by 4 without any remainder. It's useful for situations where determining divisibility by 4 is required.
+This program determines the color of a square on a chessboard given its coordinates. The chessboard is an 8x8 grid, with columns and rows numbered from 1 to 8. 
+
+![Chess Board](board.png)
+Source:  https://snakify.org/
 
 ### How It Works
 
-Upon receiving an integer input, the program evaluates if it is divisible by 4. It outputs "YES" if the integer is divisible by 4 with no remainder, and "NO" otherwise.
+The program receives two integer inputs representing the column and row numbers of a square on the chessboard. It then calculates the color of the square based on these coordinates. The output is "BLACK" if the square is black and "WHITE" if the square is white.
 
 ### Input
 
-The user is expected to input an integer.
+Users must input two integers: the first for the column number and the second for the row number, both ranging from 1 to 8.
 
 ### Output
 
-The program prints "YES" if the provided integer is divisible by 4, and "NO" if it is not.
+The program prints "BLACK" if the square at the given coordinates is black, and "WHITE" otherwise.
 
 ### Example
 
-```
+```shell
 $ python main.py
-8
-YES
+1
+1
+BLACK
 $ python main.py
-5
-NO
+2
+2
+BLACK
 $ python main.py
-16
-YES
+1
+2
+WHITE
 $ python main.py
-22
-NO
+2
+1
+WHITE
 ```
 
 ---

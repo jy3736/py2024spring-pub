@@ -1,2 +1,2 @@
-# refer to the prob01 ~ prob03 for the coding style and add your code here
+# you have to complete the whole script to solve the problem
     
